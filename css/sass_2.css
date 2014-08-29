@@ -1,0 +1,49 @@
+.fullbleed img {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-container {
+  max-width: 75em;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0 0 1.5em 0;
+}
+
+#reveal-quote {
+  margin-bottom: 1em;
+}
+
+#screenshot {
+  margin-bottom: 1em;
+}
+
+.feature-body img {
+  margin-bottom: 0;
+}
+
+.feature-head__text a {
+  color: #fff200;
+}
+
+#hidden-quote {
+  font-family: Balto, sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  q {
+    color: #ffffff;
+    background-color: #a41d24 !important;
+    padding: .2em 0;
+    -webkit-box-shadow: -0.4em 0 0 #a41d24,0.4em 0 0 #a41d24;
+    -moz-box-shadow: -0.4em 0 0 #a41d24,0.4em 0 0 #a41d24;
+    box-shadow: -0.4em 0 0 #a41d24,0.4em 0 0 #a41d24;
+  }
+}
+
+@media only screen and (max-width : 1080px) {
+  .feature-head__text a {
+    color: #a41d24;
+  }
+}
